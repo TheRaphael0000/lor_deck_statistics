@@ -2,7 +2,9 @@ import glob
 import json
 import os
 
-
+# you need the lor jsons cards informations files in a folder called lor
+# you can download them here : https://developer.riotgames.com/docs/lor
+# under "Set Bundles"
 folder = os.path.join(os.path.dirname(__file__), "lor")
 
 def get_cards():
